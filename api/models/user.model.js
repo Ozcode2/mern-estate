@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    avatar: {
+      type: String,
+      default: "https://ionicframework.com/docs/img/demos/avatar.svg",
+    },
   },
   { timestamps: true }
 );
